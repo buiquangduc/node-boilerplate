@@ -1,0 +1,13 @@
+{
+  "name": "Node Boilerplate",
+  "server": {
+    "host": "localhost",
+    "port": "5000"
+  },
+  "mysql": {
+    "host": "localhost",
+    "user": "root",
+    "password": "D3v3l0p3R",
+    "database": "test"
+  }
+}

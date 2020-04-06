@@ -1,0 +1,49 @@
+{
+  "name": "node-boilerplate",
+  "version": "0.1.0",
+  "description": "Easy to use Node Boilerplate.",
+  "main": "index.js",
+  "repository": "https://github.com/buiquangduc/node-boilerplate",
+  "author": "Duc Bui Quang",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@hapi/joi": "^17.1.0",
+    "axios": "^0.19.2",
+    "bcrypt": "^4.0.0",
+    "body-parser": "^1.19.0",
+    "config": "^3.2.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.22.0",
+    "lodash": "^4.17.15",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.6"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "husky": "^4.2.3",
+    "nodemon": "^2.0.2",
+    "prettier": "^1.19.1"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "serve": "nodemon app.js",
+    "prettier-fix": "prettier --write **/*.js",
+    "prettier-check": "prettier --list-different **/*.js",
+    "lint-fix": "eslint --fix .",
+    "fix": "eslint --fix . && prettier --write **/*.js",
+    "lint": "eslint .",
+    "check-syntax": "yarn lint && yarn prettier-check"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "yarn lint && yarn prettier-check"
+    }
+  }
+}
