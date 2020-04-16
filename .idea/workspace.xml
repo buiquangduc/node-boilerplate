@@ -9,14 +9,24 @@
       <change beforePath="$PROJECT_DIR$/../njedy/.idea/njedy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../njedy/.idea/njedy.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../njedy/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../njedy/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../njedy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../njedy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njedy/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njedy/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/middlewares/example.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/middlewares/example.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/requests/example.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/requests/example.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/default.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/default.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="node-boilerplate" />
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../homeland-web" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1aAQZGpJsx6dnu4WLatGbT3r3Pb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -49,7 +59,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586175971424</updated>
-      <workItem from="1586175972935" duration="7479000" />
+      <workItem from="1586175972935" duration="7620000" />
+      <workItem from="1586222667497" duration="2915000" />
     </task>
     <servers />
   </component>

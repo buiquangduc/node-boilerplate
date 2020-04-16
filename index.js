@@ -9,11 +9,7 @@ const routes = require('./app/routes')
 
 console.log('Application Name: ' + config.get('name'))
 
-const connectDB = require('./app/common/db')
-
 const app = express()
-
-connectDB()
 
 app.use(cors())
 

@@ -1,68 +1,68 @@
-const Joi = require('@hapi/joi')
+const Joi = require('@hapi/joi');
 
 function create(req, res, next) {
-	const schema = Joi.object({
-		content: Joi.string().required(),
-	})
+  const schema = Joi.object({
+    content: Joi.string().required(),
+  });
 
-	const validate = schema.validate(req.body)
-	const validateError = validate.error
+  const validate = schema.validate(req.body);
+  const validateError = validate.error;
 
-	if (validateError) {
-		return res.status(400).send({ message: validateError.details[0].message })
-	}
+  if (validateError) {
+    return res.status(400).send({message: validateError.details[0].message});
+  }
 
-	next()
+  next();
 }
 
 function update(req, res, next) {
-	const schema = Joi.object({
-		content: Joi.string().required(),
-	})
+  const schema = Joi.object({
+    content: Joi.string().required(),
+  });
 
-	const validate = schema.validate(req.body)
-	const validateError = validate.error
+  const validate = schema.validate(req.body);
+  const validateError = validate.error;
 
-	if (validateError) {
-		return res.status(400).send({ message: validateError.details[0].message })
-	}
+  if (validateError) {
+    return res.status(400).send({message: validateError.details[0].message});
+  }
 
-	next()
+  next();
 }
 
 function getSingle(req, res, next) {
-	const schema = Joi.object({
-		id: Joi.string().required(),
-	})
+  const schema = Joi.object({
+    id: Joi.string().required(),
+  });
 
-	const validate = schema.validate(req.params)
-	const validateError = validate.error
+  const validate = schema.validate(req.params);
+  const validateError = validate.error;
 
-	if (validateError) {
-		return res.status(400).send({ message: validateError.details[0].message })
-	}
+  if (validateError) {
+    return res.status(400).send({message: validateError.details[0].message});
+  }
 
-	next()
+  next();
 }
 
 function remove(req, res, next) {
-	const schema = Joi.object({
-		id: Joi.string().required(),
-	})
+  const schema = Joi.object({
+    id: Joi.string().required(),
+  });
 
-	const validate = schema.validate(req.body)
-	const validateError = validate.error
+  const validate = schema.validate(req.body);
+  const validateError = validate.error;
 
-	if (validateError) {
-		return res.status(400).send({ message: validateError.details[0].message })
-	}
+  if (validateError) {
+    return res.status(400).send({message: validateError.details[0].message});
+  }
 
-	next()
+  next();
 }
 
 module.exports = {
-	create,
-	update,
-	getSingle,
-	remove
-}
+  create,
+  update,
+  getSingle,
+  remove,
+};
